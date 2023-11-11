@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylesss.css">
+  <title>Calendar 2024</title>
+  <link href=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUjHRskKa57G-SZ4H9LHOH-m8BzWhkvMhl5HWZimMjSw&s" rel="icon">
+</head>
+<body>
+  <div class="container">
+    <div id="calendar-box">
+      <div id="calendar-header">
+        <button id="prev-month-btn" onclick="changeMonth(-1)" class="btn btn-primary"><</button>
+        <span id="calendar-title">January 2024</span>
+        <button id="next-month-btn" onclick="changeMonth(1)" class="btn btn-primary">></button>
+      </div>
+      <div id="calendar-days"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
